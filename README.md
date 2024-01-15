@@ -32,7 +32,7 @@ Species abundance matrix or genes abundance matrix
 
 Rows of example data represent different otu and each column represents a different samples, count file
 
-# run MCA and the data needs to be transposed
+## 3. run MCA
 ```
 mca = run_mca_dim(data)
 
@@ -66,6 +66,7 @@ sample_8    0.9948649 -0.339096546  0.062332056 -0.503456126  1.462279103  0.941
 sample_9    0.9947220  0.149905823 -0.104547511 -1.454359909 -1.347907657  1.541504554  0.270319849
 ```
 Visualize the results of dimensionality reduction：
+
 ![](https://github.com/hzaurzli/MicroMCA/assets/47686371/b6a8e6f5-043f-4984-8e6e-728ce61246ee)
 
 
