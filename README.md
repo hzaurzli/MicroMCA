@@ -33,6 +33,7 @@ Species abundance matrix or genes abundance matrix
 Rows of example data represent different otu and each column represents a different samples, count file
 
 # run MCA and the data needs to be transposed
+```
 mca = run_mca_dim(data)
 
 # get otu' coordinates
@@ -63,6 +64,10 @@ sample_6    0.9993955 -0.102456802  0.511406163  0.872346395  0.438609451  1.812
 sample_7    1.0087608 -0.333682961  0.758616098  1.723396713 -0.270310759 -0.228174062  0.019884597
 sample_8    0.9948649 -0.339096546  0.062332056 -0.503456126  1.462279103  0.941203582  0.620752364
 sample_9    0.9947220  0.149905823 -0.104547511 -1.454359909 -1.347907657  1.541504554  0.270319849
+```
+Visualize the results of dimensionality reduction：
+![](https://github.com/hzaurzli/MicroMCA/assets/47686371/b6a8e6f5-043f-4984-8e6e-728ce61246ee)
+
 
 ## 4. Obtain the representative features of each phage
 
@@ -86,5 +91,3 @@ $otu3
 2.828143 2.895644 3.221709 
 ```
 The results in imp reflect the dominant otu in each group, with smaller values reflecting that otu is more dominant in that group
-![](https://github.com/hzaurzli/MicroMCA/assets/47686371/6a2a6cde-282b-4c81-8048-42b7d832b2d0)
-
