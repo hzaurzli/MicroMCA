@@ -2,8 +2,8 @@
 
 ## 1. Install packages
 ```
-devtools::install_github('hzaurzli/PhagesLDA')
-library(PhagesLDA)
+devtools::install_github('hzaurzli/MicroMCA')
+library(MicroMCA)
 ```
 **We recommend using R 4.0+ for operation**
 
